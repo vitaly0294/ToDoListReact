@@ -1,4 +1,5 @@
-/* Global style */
+@charset "UTF-8";
+
 html {
   box-sizing: border-box;
 }
@@ -10,12 +11,11 @@ html {
 }
 
 body {
-  margin: 0;
-
-  background: #faf8ef;
-  color: #776e65;
-  
-  overflow-x: hidden;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.429;
+  color: black;
 }
 
 img {
@@ -26,7 +26,6 @@ img {
 a {
   text-decoration: none;
   color: inherit;
-  cursor: pointer;
 }
 
 ul {
@@ -40,19 +39,8 @@ h1, h2, h3, p {
   margin: 0;
 }
 
-button {
-  cursor: pointer;
-}
 
-input, button {
-  font: inherit;
-}
-
-input[type='number'] {
-  -moz-appearance: textfield;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
+body {
+  background: #edf0f1;
+  padding: 80px 0 0 0;
 }
